@@ -1,0 +1,31 @@
+Catboost Model
+
+Features: 'Municipality', 'Intersection', 'Crash Type', 'Total Vehicles',
+       'Initial Impact Location_x', 'Principal Damage Location_x',
+       'Extent of Damage_x', 'Vehicle Type_x', 'Initial Impact Location_y',
+       'Principal Damage Location_y', 'Extent of Damage_y', 'Vehicle Type_y'
+
+Parameters: 'loss_function': 'Logloss',
+ 'eval_metric': 'Accuracy',
+ 'depth': 6,
+ 'l2_leaf_reg': 1,
+ 'iterations': 50,
+ 'learning_rate': 0.1
+
+Performance Metrics:
+
+Classification Report:  
+
+             precision    recall  f1-score   support
+
+           0       0.84      0.83      0.84      9365
+           1       0.56      0.57      0.57      3430
+
+    accuracy                           0.76     12795
+   macro avg       0.70      0.70      0.70     12795
+weighted avg       0.77      0.76      0.77     12795
+
+Confusion Metrics:
+
+[[7816  1549]
+ [1466  1964]]
