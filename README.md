@@ -9,13 +9,10 @@ NJ Department of Transportaion provides Crashes, Drivers, Vehicles, Occupants an
 The datasets of Crashes, Drivers and Vehicles of 2017-2019 were selected, joined and merged together for the data research.  
 
 3. Exploratory Data Analysis 
-Accident Numbers in Each Month during 2017-2019
+Daily accidents (found all of the 3 highest accident days had snow weather conditions)
+Accidents of each month during 2017-2019
+Accidents of each hour during 2017-2019 (4-5am lowest, 5-6pm highest)
+Average accidents on each day of week (Friday highest, Sunday and holiday lowest)
+Accidents in each hour on different weekdays (workdays have double peaks, weekends and holidays have single peaks)
 
-![image](https://user-images.githubusercontent.com/73204188/125374850-e5ad5780-e355-11eb-86e2-d1b3dfd25356.png)
-![image](https://user-images.githubusercontent.com/73204188/125374910-0d9cbb00-e356-11eb-9472-28e00a03cb07.png)
-
-![image](https://user-images.githubusercontent.com/73204188/125374881-f5c53700-e355-11eb-9068-dc29944963b6.png)
-
-![image](https://user-images.githubusercontent.com/73204188/125374969-2e651080-e356-11eb-9725-3bc8fd8d38c6.png)
-
-
+4. Machine Learning
