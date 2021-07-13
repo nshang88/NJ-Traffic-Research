@@ -14,5 +14,5 @@ Accidents of each hour during 2017-2019 (4-5am lowest, 5-6pm highest)
 Average accidents on each day of week (Friday highest, Sunday and holiday lowest)
 Accidents in each hour on different weekdays (workdays have double peaks, weekends and holidays have single peaks)
 
-4. Machine Learning: Among the 46,536 cases recorded in Camden County from 2017-2019. There are 34,543 cases only caused property damage, 11,853 cases inccured personal injuries and 140 cases resutled in fataities. 
-I built a prediction model to predict if the accidents would cause injury or fatalities (1) and only proprety damages (0).
+4. Machine Learning: Among the 46,536 cases recorded in Camden County from 2017-2019. There are 34,543 cases only caused property damages, 11,853 cases inccured personal injuries and 140 cases resutled in fataities. 
+I built a prediction model to predict if the accidents would cause injury and fatalities (1) or only proprety damages (0). This model can help us understand what kind of accidents more likely to inccur personal injuries or even fatalities. 
