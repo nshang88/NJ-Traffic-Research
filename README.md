@@ -18,4 +18,8 @@ Accidents in each hour on different weekdays (workdays have double peaks, weeken
 I built a prediction model to predict if the accidents would cause injury and fatalities (1, positive) or only proprety damages (0, negative). This model can help us understand what kind of accidents are more likely to incur personal injuries or even fatalities. 
 Since most of the traffic accident features are categorical variables, I found Catboost worked well for the prediction model. Although getting a accuracy score of 0.79, the initial prediction model was imbalanced due to the imlalanced training data. To fix this problem, I used the SMOTE method to make a 1:1 ratio of the positive and negative training data. I got a balanced prediction and slightly lower accuracy score (0.76). Other algorithm liek Random Forest and Gradient Boost were also tried and foudn to be slightly lower than CatBoost. 
 The SHAP was used to show the importance of the features' impacts:
+
 ![image](https://user-images.githubusercontent.com/73204188/125385652-e56a8780-e368-11eb-91fe-44488c2c9d56.png)
+
+The major factors can cause injuries or fatalties in traffic accidents are Crash Types, Extent of Damage, Principal Damage Location, Road Intersection or not and Accident Location (municipality). Other factors like drivers' age, sex and vehicles' age do not have significant influence on the severity of the accidents (there should be no age or sex discrimination!). 
+
