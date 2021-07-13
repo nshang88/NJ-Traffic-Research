@@ -11,6 +11,8 @@ The datasets of Crashes, Drivers and Vehicles of 2017-2019 were selected, joined
 3. Exploratory Data Analysis 
 Accident Numbers in Each Month during 2017-2019
 ![image](https://user-images.githubusercontent.com/73204188/125374850-e5ad5780-e355-11eb-86e2-d1b3dfd25356.png)
+![image](https://user-images.githubusercontent.com/73204188/125374910-0d9cbb00-e356-11eb-9472-28e00a03cb07.png)
+
 ![image](https://user-images.githubusercontent.com/73204188/125374881-f5c53700-e355-11eb-9068-dc29944963b6.png)
 
 
