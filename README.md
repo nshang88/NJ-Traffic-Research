@@ -1,3 +1,5 @@
+Use Git Update it.
+
 # NJ-Traffic-Research
 
 1. Data: The department of New Jersey provide the summary of the traffic crashes data from 2001-2019 at https://www.state.nj.us/transportation/refdata/accident/crash_statistics.shtm  for each counties (21 total)  of the state. 
